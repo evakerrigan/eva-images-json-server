@@ -1,11 +1,11 @@
 // JSON Server module
 const jsonServer = require('json-server');
-const catalog = require('./db/cards.json');
+const cards = require('./db/cards.json');
 
 const PORT = 3000;
 
 const db = {
-  catalog: catalog
+  cards: cards
 };
 
 const server = jsonServer.create();
